@@ -1,8 +1,8 @@
 import xml.etree.ElementTree as ET
 #Crea fitxer
-def writeFile():
+def writeFile(arxiuName):
     # Crea arxiu
-    f = open("arxiu.xml", "w")
+    f = open(arxiuName, "w")
     f.write("<students></students>")
     f.close()
 
@@ -26,17 +26,12 @@ def creaStudent(pare, nom, cognom, email, dni, isMatriculat):
 
 
 # Crea un fitxer
-writeFile()
+arxiuName = "arxiu.xml"
+writeFile(arxiuName)
 
 #Seleciona l'arxiu
-tree = ET.parse("arxiu.xml")
-root = tree.getroot()
-# Crea el pare
-root =ET.Element("students")
-#Seleciona el pare
+tree = ET.parse(arxiuName)
 pare = ET.Element("students")
-
-
 
 creaStudent(pare, nom="Kevin", cognom="Sama", email="kev@gmail.com", dni="1111x", isMatriculat="false")
 creaStudent(pare, nom="Mitchel", cognom="Sama", email="kev@gmail.com", dni="2222d", isMatriculat="false")
@@ -45,6 +40,7 @@ creaStudent(pare, nom="Luis", cognom="Sama", email="kev@gmail.com", dni="444f", 
 creaStudent(pare, nom="Jorge", cognom="Sama", email="kev@gmail.com", dni="5555x", isMatriculat="false")
 
 ET.indent(pare)
+#Mostra per consola
 ET.dump(pare)
 ET.indent(tree)
 
