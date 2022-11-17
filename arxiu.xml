@@ -1,8 +1,32 @@
 <students>
-  <student matriculat="true">
+  <student matriculat="false">
     <name>Kevin</name>
     <surname>Sama</surname>
-    <email>kev@mail.com</email>
-    <dni>12345678x</dni>
+    <email>kev@gmail.com</email>
+    <dni>1111x</dni>
+  </student>
+  <student matriculat="false">
+    <name>Mitchel</name>
+    <surname>Sama</surname>
+    <email>kev@gmail.com</email>
+    <dni>2222d</dni>
+  </student>
+  <student matriculat="false">
+    <name>Julio</name>
+    <surname>Sama</surname>
+    <email>kev@gmail.com</email>
+    <dni>333f</dni>
+  </student>
+  <student matriculat="false">
+    <name>Luis</name>
+    <surname>Sama</surname>
+    <email>kev@gmail.com</email>
+    <dni>444f</dni>
+  </student>
+  <student matriculat="false">
+    <name>Jorge</name>
+    <surname>Sama</surname>
+    <email>kev@gmail.com</email>
+    <dni>5555x</dni>
   </student>
 </students>
