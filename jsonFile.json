@@ -1,0 +1,28 @@
+{
+  "book": [
+    {
+      "title": "El señor de los anillos",
+      "cover": "personas",
+      "year": 1990,
+      "pages": 200
+    },
+    {
+      "title": "Harry Potter",
+      "cover": "personas",
+      "year": 2003,
+      "pages": 200,
+    },
+    {
+      "title": "Geronimo Stilton",
+      "cover": "persona animal",
+      "year": 2001,
+      "pages": 200,
+    },
+    {
+      "title": "El Mago de Oz",
+      "cover": "personas",
+      "year": 2015,
+      "pages": 150
+    }
+  ]
+}
