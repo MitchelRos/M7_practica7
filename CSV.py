@@ -1,4 +1,5 @@
 import csv
+import openpyxl
 
 Namefile = "mimosa.csv"
 
@@ -38,6 +39,15 @@ def read():
         # Muestra el CSV 🤓
         for lines in csvFile:
             print(lines)
+
+
+# EXEL
+def exel():
+    n=openpyxl.workbook
+    m=n.active
+    cell1=m.cell(row=1, column=1)
+    cell1.value=data[0]
+
 
 
 write()
