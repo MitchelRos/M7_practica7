@@ -1,0 +1,8 @@
+<students>
+  <student matriculat="true">
+    <name>Kevin</name>
+    <surname>Sama</surname>
+    <email>kev@mail.com</email>
+    <dni>12345678x</dni>
+  </student>
+</students>
